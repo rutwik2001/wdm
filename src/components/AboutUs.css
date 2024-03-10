@@ -1,0 +1,44 @@
+.about-us-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .about-us-container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .mission-statement,
+  .values,
+  .team,
+  .testimonials,
+  .achievements {
+    margin-bottom: 30px;
+  }
+  
+  .values ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .values li::before {
+    content: "✓";
+    margin-right: 8px;
+    color: green; /* or your theme color */
+  }
+  
+  blockquote {
+    border-left: 4px solid #ccc;
+    margin-left: 0;
+    padding-left: 16px;
+    font-style: italic;
+  }
+  
+  blockquote cite {
+    display: block;
+    margin-top: 8px;
+    font-style: normal;
+    font-weight: bold;
+  }
+  

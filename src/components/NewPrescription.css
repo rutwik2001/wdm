@@ -1,0 +1,41 @@
+/* NewPrescription.css */
+.new-prescription-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .patient-information,
+  .drugs-list,
+  .tests-list {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #5c6bc0; /* Purple color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #3949ab; /* Darker purple */
+  }
+  

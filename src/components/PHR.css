@@ -1,0 +1,69 @@
+/* PatientProfile.css */
+.patient-profile-container {
+    display: flex;
+  }
+  
+  .sidebar {
+    /* Sidebar styles */
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .personal-information {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    /* Add additional styling */
+  }
+
+  .health-data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .health-data-table thead {
+    background-color: #f4f4f4;
+  }
+  
+  .health-data-table th, .health-data-table td {
+    text-align: left;
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .health-data-table th {
+    position: sticky;
+    top: 0;
+  }
+  
+  .health-data-table tbody tr:nth-child(odd) {
+    background-color: #fafafa;
+  }
+  
+  .health-data-table tbody tr:hover {
+    background-color: #eaeaea;
+  }
+  
+  .profile-picture {
+    /* Styles for profile picture upload section */
+  }
+  
+  .form-fields {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    /* Add additional styling */
+  }
+  
+  .patient-health-report {
+    margin-top: 20px;
+    /* Add additional styling */
+  }
+  
+  /* Add more styles for form fields, buttons, and overall layout */
+  

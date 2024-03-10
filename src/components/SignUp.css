@@ -1,0 +1,74 @@
+/* SignUp.css */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  .signup-box {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .signup-box h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .signup-box p {
+    margin-bottom: 30px;
+    color: #666;
+  }
+  
+  .signup-box .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .signup-box .input-group input[type="text"],
+  .signup-box .input-group input[type="email"],
+  .signup-box .input-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px; /* Add space between inputs */
+    box-sizing: border-box;
+  }
+  
+  .signup-box .input-group label {
+    color: #666;
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+  }
+  
+  .signup-box .input-group input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .signup-box button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6e57e0; /* Adjust color to match design */
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .signup-box .signup-footer {
+    margin-top: 20px;
+  }
+  
+  .signup-box .signup-footer a {
+    color: #6e57e0; /* Adjust color to match design */
+    text-decoration: none;
+  }
+  

@@ -1,0 +1,44 @@
+/* Footer.css */
+footer.footer {
+  background-color: #203a4c; /* Adjust the color to match your design */
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  flex-wrap: wrap; /* Responsive behavior */
+}
+
+footer.footer div {
+  margin: 10px;
+}
+
+footer.footer h3 {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+footer.footer a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: block; /* To stack links */
+}
+
+footer.footer p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  footer.footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  footer.footer div {
+    width: 100%;
+    max-width: 300px;
+  }
+}
